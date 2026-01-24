@@ -1,4 +1,4 @@
-package maffile.co_tiktok;
+package maffile.co_tiktok.com.iot.tiktok;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
