@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>maffile</groupId>
-    <artifactId>tik-user-service</artifactId>
+    <artifactId>tik-social-sevice</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>tik-user-service</name>
-    <description>tik-user-service</description>
+    <name>tik-social-sevice</name>
+    <description>tik-social-sevice</description>
     <url/>
     <licenses>
         <license/>
@@ -29,7 +29,6 @@
     <properties>
         <java.version>17</java.version>
     </properties>
-
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
