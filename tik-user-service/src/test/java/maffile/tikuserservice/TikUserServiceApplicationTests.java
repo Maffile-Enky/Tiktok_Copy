@@ -1,10 +1,10 @@
-package maffile.co_tiktok;
+package maffile.tikuserservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CoTiktokApplicationTests {
+class TikUserServiceApplicationTests {
 
     @Test
     void contextLoads() {
