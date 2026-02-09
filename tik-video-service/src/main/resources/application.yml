@@ -1,9 +1,13 @@
-server:
-  port: 8845
+
 spring:
   application:
     name: tik-video-service
+  config:
+    import: nacos:tik-video-service-dev.yml
   cloud:
     nacos:
       discovery:
         server-addr: localhost:8848
+      config:
+        server-addr: localhost:8848
+        file-extension: yml

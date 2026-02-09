@@ -1,9 +1,12 @@
-server:
-  port: 8846
 spring:
   application:
     name: tik-social-service
+  config:
+    import: nacos:tik-social-service-dev.yml
   cloud:
     nacos:
       discovery:
         server-addr: localhost:8848
+      config:
+        server-addr: localhost:8848
+        file-extension: yml
