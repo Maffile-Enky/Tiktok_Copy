@@ -1,10 +1,9 @@
 
 spring:
   application:
-    name: tik-video-service
+    name: gateway-service
   config:
-    import: nacos:tik-video-service-dev.yml
-    #import: nacos:VideoService2-dev.yml
+    import: nacos:gateway-service-dev.yml
   cloud:
     nacos:
       discovery:

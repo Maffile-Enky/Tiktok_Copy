@@ -8,6 +8,8 @@
         <option value="$PROJECT_DIR$/tik-user-service/pom.xml" />
         <option value="$PROJECT_DIR$/tik-video-service/pom.xml" />
         <option value="$PROJECT_DIR$/tik-social-sevice/pom.xml" />
+        <option value="$PROJECT_DIR$/commom-modoules/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway-service/pom.xml" />
       </list>
     </option>
   </component>
