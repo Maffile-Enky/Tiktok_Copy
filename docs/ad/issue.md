@@ -45,3 +45,18 @@
 </dependencyManagement>
 ```
 里面，否则无法正常加载。
+## 问题3：在nacos配置中心无法发现子服务
+## 解决方案：
+将子项目pom的：
+```xml
+    <dependency>
+        <groupId>com.alibaba.cloud</groupId>
+        <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+    </dependency>
+```
+放在版本管理之外，子项目无需使用
+```xml
+<dependencyManagement>
+    
+</dependencyManagement>
+```

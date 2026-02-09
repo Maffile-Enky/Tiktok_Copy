@@ -1,2 +1,9 @@
 server:
   port: 8846
+spring:
+  application:
+    name: tik-social-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
